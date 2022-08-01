@@ -6,13 +6,13 @@
     </div>
 
     <div class="flex items-center pl-20">
-      <a
-        href="/"
+      <router-link
+        to="/"
         class="flex text-white font-bold underline hover:text-slate-300"
       >
         <HomeIcon class="w-4 text-white mr-2" />
         <p>Home</p>
-      </a>
+      </router-link>
     </div>
   </nav>
 </template>
