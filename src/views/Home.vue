@@ -4,11 +4,11 @@
     <div
       class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-8 pt-12 py-3"
     >
-      <a
+      <router-link
         v-for="(company, index) in filteredCompany"
         :key="index"
         class="bg-secondary-color rounded-xl w-40 h-48 pt-[12px] mx-auto text-center text-primary-color text-sm font-semibold cursor-pointer hover:ring-2 hover:ring-primary-color/50 hover:drop-shadow-[0_0px_4px_rgba(135,89,242)]"
-        :href="'/poonnamee-companytest/' + company.id"
+        :to="'/' + company.id"
       >
         <div class="">
           <div
@@ -25,7 +25,7 @@
           </div>
           <p class="py-3">{{ company.name }}</p>
         </div>
-      </a>
+      </router-link>
     </div>
 
     <div class="flex justify-center pt-8">
