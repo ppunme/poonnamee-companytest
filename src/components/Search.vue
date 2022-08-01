@@ -4,7 +4,7 @@
       class="absolute w-5 left-7 top-1/2 -mt-2.5 text-slate-400 pointer-events-none group-focus-within:text-primary-color"
     />
     <input
-      class="w-full text-slate-900 rounded-md py-2 pl-10 ring-1 ring-slate-300 shadow-sm focus:ring-2 focus:ring-primary-color focus:outline-none"
+      class="w-full text-slate-900 rounded-md py-2 pl-10 border border-slate-300 shadow-sm focus:border-2 focus:border-primary-color focus:outline-none"
       type="text"
       aria-label="Search company"
       placeholder="Search company..."

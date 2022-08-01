@@ -8,7 +8,7 @@
         v-for="(company, index) in filteredCompany"
         :key="index"
         class="bg-secondary-color rounded-xl w-40 h-48 pt-[12px] mx-auto text-center text-primary-color text-sm font-semibold cursor-pointer hover:ring-2 hover:ring-primary-color/50 hover:drop-shadow-[0_0px_4px_rgba(135,89,242)]"
-        :href="'/' + company.id"
+        :href="'/poonnamee-companytest/' + company.id"
       >
         <div class="">
           <div
